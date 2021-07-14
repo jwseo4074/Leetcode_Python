@@ -5,7 +5,7 @@ ban = str(input())
 banned = []
 banned.append(ban)
 
-words = [word for word in re.sub(r'[^\w]', ' ', paragraph).lower().split() if word not in banned]
+words = [word for word in re.sub('[^\w]', ' ', paragraph).lower().split() if word not in banned]
 
 input_list = []
 count_list = []

@@ -32,4 +32,4 @@ for _ in range(right-left):
     start.next.next = temp
 # 이 부분 다시 해보면서 감 익히기
 
-return root.next
+#return root.next
