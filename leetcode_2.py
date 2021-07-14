@@ -55,7 +55,7 @@ for s in answer:
     node = ListNode(s)
     node.next = prev
     prev = node
-return node
+#return node
 
 
 
